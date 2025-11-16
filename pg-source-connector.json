@@ -1,0 +1,14 @@
+{
+  "name": "pg-source-connector",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "tenant-database-postgres",
+    "database.port": "5432",
+    "database.user": "tenant",
+    "database.password": "tenant",
+    "database.dbname": "tenant",
+    "database.server.name": "tenant_db",
+    "plugin.name": "pgoutput",
+    "topic.prefix": "tenant1"
+  }
+}
